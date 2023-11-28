@@ -4,11 +4,11 @@ import tweepy
 import random
 import time, threading 
 
-API_KEY = "hnV6bP3D70HJuEZZ5tTd4aeAn"
-API_SECRET = "p7IZXHjztovXUUKYWjhrXhlBg0Wkg1wPKdpyYxOOKcPH7QrHF6"
+API_KEY = ""
+API_SECRET = ""
 
-ACCESS_TOKEN = "1551116548059926528-qNuDxWtr3DvaNBKtNJqleGCzVdNXUc"
-ACCESS_TOKEN_SECRET = "FM5WiV3g4kGAaGCpt8KA6VMgWGrnDubyzwy4qLntJI2z1"
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
